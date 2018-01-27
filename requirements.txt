@@ -1,0 +1,3 @@
+boto3
+MySQL-python
+python-telegram-bot
