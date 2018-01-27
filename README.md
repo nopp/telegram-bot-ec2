@@ -11,8 +11,8 @@ Create an user on user table:
 =============================
 * INSERT INTO user VALUES ('user@teste.com',MD5('123456'))
   
-Create "link" betweeen idUser and idInstance:
-=============================================
+Create "link" between idUser and idInstance:
+============================================
 * SELECT id FROM user WHERE email = 'user@test.com'
 * 1
 * INSERT INTO resource VALUES ('1','i-1212121212121') 
