@@ -31,7 +31,7 @@ RUNNING BOT
 RUNNING ON DOCKER
 =================
 
-  # docker container run -d -e token='xxx' -e region='xxx' -e akey='accessKey' -e skey='secretKey' -e mysqlHost='xxx' -e mysqlUser='xxx' -e mysqlPassword='xxx' -e mysqlDB='xxx' nopp/telegram-bot-ec2:latest
+	# docker container run -d -e token='xxx' -e region='xxx' -e akey='accessKey' -e skey='secretKey' -e mysqlHost='xxx' -e mysqlUser='xxx' -e mysqlPassword='xxx' -e mysqlDB='xxx' nopp/telegram-bot-ec2:latest
 
 
 SCREENSHOT
