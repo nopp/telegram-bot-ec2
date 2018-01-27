@@ -24,4 +24,4 @@ RUNNING BOT
 
 SCREENSHOT
 ==========
-![Image Alt](https://imgur.com/a/mDgBW)
+![Image Alt](http://i63.tinypic.com/2nsbdx4.png)
