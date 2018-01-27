@@ -7,19 +7,21 @@ This bot have two actions: start/stop EC2 instance, basically the script will ch
 
 Example: We'll allow email user@teste.com with 123456 password to start/stop an instance i-1212121212121.
 
-Create an user on user table:
-=============================
+Create an user on user table
+============================
 * INSERT INTO user VALUES ('user@teste.com',MD5('123456'))
   
-Create "link" between idUser and idInstance:
-============================================
+Create "link" between idUser and idInstance
+===========================================
 * SELECT id FROM user WHERE email = 'user@test.com'
 * 1
 * INSERT INTO resource VALUES ('1','i-1212121212121') 
-user/password = admin
 
-RUNNING BOT:
+RUNNING BOT
 ===========
 
 	# python ec2bot.py telegramToken ec2Region accessKey secretKey mysqlHost mysqlUser mysqlPassword mysqlDB 
 
+SCREENSHOT
+==========
+![Image Alt](http://i63.tinypic.com/2nsbdx4.png)
