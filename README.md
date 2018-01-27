@@ -5,6 +5,13 @@ This bot have two actions: start/stop EC2 instance, basically the script will ch
 * Import schema.sql on MySQL.
 * Create a bot token on Telegram.
 
+## INSTALL
+==========
+
+* git clone https://github.com/nopp/telegram-bot-ec2.git
+* cd telegram-bot-ec2
+* pip install -r requirements.txt
+
 Example: We'll allow email user@teste.com with 123456 password to start/stop an instance i-1212121212121.
 
 Create an user on user table
