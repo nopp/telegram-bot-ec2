@@ -28,6 +28,12 @@ RUNNING BOT
 
 	# python ec2bot.py telegramToken ec2Region accessKey secretKey mysqlHost mysqlUser mysqlPassword mysqlDB 
 
+RUNNING ON DOCKER
+=================
+
+  # docker container run -d -e token='xxx' -e region='xxx' -e akey='accessKey' -e skey='secretKey' -e mysqlHost='xxx' -e mysqlUser='xxx' -e mysqlPassword='xxx' -e mysqlDB='xxx' nopp/telegram-bot-ec2:latest
+
+
 SCREENSHOT
 ==========
 ![Image Alt](http://i63.tinypic.com/2nsbdx4.png)
