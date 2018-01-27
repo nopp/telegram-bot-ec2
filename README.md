@@ -6,7 +6,6 @@ This bot have two actions: start/stop EC2 instance, basically the script will ch
 * Create a bot token on Telegram.
 
 ## INSTALL
-==========
 
 * git clone https://github.com/nopp/telegram-bot-ec2.git
 * cd telegram-bot-ec2
