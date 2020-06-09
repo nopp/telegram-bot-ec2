@@ -1,6 +1,5 @@
 # Telegram Bot for EC2
 
-![Docker Image CI](https://github.com/nopp/telegram-bot-ec2/workflows/Docker%20Image%20CI/badge.svg)
 ![Code scanning - action](https://github.com/nopp/telegram-bot-ec2/workflows/Code%20scanning%20-%20action/badge.svg)
 
 This bot have two actions: start/stop EC2 instance, basically the script will check on mysql database if user have permission to stop/start a specific instance.
